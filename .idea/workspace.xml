@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a6cd73d3-eff2-48f4-9693-afb0edb84de3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-INF/view/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-INF/view/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/simplewebapp.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/simplewebapp.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/com.javamaster/simplewebapp/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat.8080/webapps/expanded/META-INF/maven/com.javamaster/simplewebapp/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WEB-INF/view/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WEB-INF/view/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WEB-INF/view/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WEB-INF/view/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java/com/javamaster/controller/HomeServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" lean-forward="true" selection-start-column="8" selection-end-column="33" />
+            <state relative-caret-position="408">
+              <caret line="30" column="38" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,10 +63,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="238">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -83,8 +80,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WEB-INF/view/welcome.jsp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/WEB-INF/view/welcome.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" selection-start-line="7" selection-end-line="7" />
@@ -93,7 +90,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WEB-INF/view/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/WEB-INF/view/index.jsp">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -116,6 +113,7 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/java/com/javamaster/controller/HomeServlet.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -167,6 +165,21 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="simplewebapp-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simplewebapp-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="simplewebapp-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="simplewebapp-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -183,9 +196,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\tmp\java\simplewebapp-master\src\main" />
+      <recent name="D:\tmp\java\simplewebapp-master\src" />
       <recent name="D:\tmp\java\simplewebapp-master" />
       <recent name="D:\tmp\java\simplewebapp-master\java" />
-      <recent name="D:\tmp\java\simplewebapp-master\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,27 +288,10 @@
     <entry file="file://$PROJECT_DIR$/.project">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/java/com/javamaster/controller/HomeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" lean-forward="true" selection-start-column="8" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -307,13 +304,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-INF/view/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/WEB-INF/view/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/WEB-INF/view/welcome.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/WEB-INF/view/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java/com/javamaster/controller/HomeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
